@@ -5,7 +5,15 @@
  * https://github.com/layerswing/jsRecVid
  * Licensed same as jquery - under the terms of the MIT License
  * http://www.opensource.org/licenses/mit-license.php
+ *
+ * esc  pressed         shows the message div
+ * esc  released        hide the message div
+ * esc+e                shows the editor div
+ * esc+q                hide the editor div
+ * esc+right arrow      next text line from editor
+ * erc+left arrow       previous text line from editor
  */
+
 var gl_int_jsRecVid_version = 2021122805;
 var gl_b_jsRecVid_Mode = false;
 var gl_b_jsRecVid_editor_Mode = false;
