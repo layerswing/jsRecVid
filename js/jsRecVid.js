@@ -1,12 +1,10 @@
 /*!
  * jsRecVid
- * <script src="https://cdn.jsdelivr.net/gh/layerswing/jsRecVid@main/js/jsRecVid.js"></script>
- *
- *https://github.com/layerswing/jsRecVid
  * Copyright (c) 2021 Dan B. (http://eskolar.com)
- *
+ * <script src="https://cdn.jsdelivr.net/gh/layerswing/jsRecVid@main/js/jsRecVid.js"></script>
+ * https://github.com/layerswing/jsRecVid
  * Licensed same as jquery - under the terms of the MIT License
- *   http://www.opensource.org/licenses/mit-license.php
+ * http://www.opensource.org/licenses/mit-license.php
  */
 var gl_int_jsRecVid_version = 2021122801;
 var gl_b_jsRecVid_Mode = false;
@@ -16,10 +14,10 @@ var gl_s_jsRecVid_id_ed = "bkb_vidrec_txt_area";
 var gl_int_jsRecVid_next_el = 0;
 
 var gl_s_arr_txt = [
-    "one",
-    "two",
-    "three",
-    "four"
+    "egy",
+    "ketto",
+    "harom",
+    "negy"
 
 ];
 
