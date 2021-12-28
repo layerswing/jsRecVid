@@ -6,18 +6,20 @@
  * Licensed same as jquery - under the terms of the MIT License
  * http://www.opensource.org/licenses/mit-license.php
  */
-var gl_int_jsRecVid_version = 2021122803;
+var gl_int_jsRecVid_version = 2021122801;
 var gl_b_jsRecVid_Mode = false;
 var gl_b_jsRecVid_editor_Mode = false;
 var gl_s_jsRecVid_id = "bkb_vidrec";
 var gl_s_jsRecVid_id_ed = "bkb_vidrec_txt_area";
 var gl_int_jsRecVid_next_el = 0;
+var gl_int_el_w = 300;
+var gl_int_el_h = 100;
 
 var gl_s_arr_txt = [
-    "one",
-    "two",
-    "three",
-    "four"
+    "egy",
+    "ketto",
+    "harom",
+    "negy"
 
 ];
 
@@ -34,14 +36,15 @@ function bvr_init() {
         position: "absolute",
         top: "-1000px",
         left: "-1000px",
-        height: "100px",
-        width: "100px",
+        width: gl_int_el_w,
+        height: gl_int_el_h,
         backgroundColor: "red",
         color: "white",
         font_size: "16px",
         border: "2px solid black",
         _zIndex: "100000"
     })
+    //
     $div2.css({
         position: "absolute",
         top: "-1000px",
@@ -101,12 +104,17 @@ document.onkeydown = function (e) {
             break;
         case "ArrowRight":
             if (gl_b_jsRecVid_Mode) {
-                gl_int_jsRecVid_next_el++;
+                if (gl_int_jsRecVid_next_el < gl_s_arr_txt.length) {
+                    gl_int_jsRecVid_next_el++;
+                }
+
             }
             break;
         case "ArrowLeft":
             if (gl_b_jsRecVid_Mode) {
-                gl_int_jsRecVid_next_el--;
+                if (gl_int_jsRecVid_next_el > 0) {
+                    gl_int_jsRecVid_next_el--;
+                }
             }
             break;
         case "e":
@@ -165,8 +173,10 @@ document.onkeyup = function (e) {
 $(document).bind('mousemove', function (e) {
     if (gl_b_jsRecVid_Mode) {
         $('#' + gl_s_jsRecVid_id).css({
-            top: e.pageY - $("#" + gl_s_jsRecVid_id).height() / 2, // just minus by half the height
-            left: e.pageX - $("#" + gl_s_jsRecVid_id).width() / 2 // just minus by half the width
+            left: e.pageX + 10,
+            top: e.pageY + 10
+            // top: e.pageY - $("#" + gl_s_jsRecVid_id).height() / 2, // just minus by half the height
+            // left: e.pageX - $("#" + gl_s_jsRecVid_id).width() / 2 // just minus by half the width
         });
     }
 
