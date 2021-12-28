@@ -2,6 +2,7 @@
  * jsRecVid
  * Copyright (c) 2021 Dan B. (http://eskolar.com)
  * <script src="https://cdn.jsdelivr.net/gh/layerswing/jsRecVid@main/js/jsRecVid.js"></script>
+ * <script src="https://cdn.jsdelivr.net/gh/layerswing/jsRecVid@0.6/js/jsRecVid.js"></script>
  * https://github.com/layerswing/jsRecVid
  * Licensed same as jquery - under the terms of the MIT License
  * http://www.opensource.org/licenses/mit-license.php
