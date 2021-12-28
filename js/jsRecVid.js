@@ -1,7 +1,7 @@
 /*!
  * jsRecVid
  *
- *
+ *https://github.com/layerswing/jsRecVid
  * Copyright (c) 2021 Dan B. (http://eskolar.com)
  *
  * Licensed same as jquery - under the terms of the MIT License
