@@ -15,10 +15,10 @@ var gl_s_jsRecVid_id_ed = "bkb_vidrec_txt_area";
 var gl_int_jsRecVid_next_el = 0;
 
 var gl_s_arr_txt = [
-    "egy",
-    "ketto",
-    "harom",
-    "negy"
+    "one",
+    "two",
+    "three",
+    "four"
 
 ];
 
