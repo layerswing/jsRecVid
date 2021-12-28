@@ -1,5 +1,6 @@
 /*!
  * jsRecVid
+ * <script src="https://cdn.jsdelivr.net/gh/layerswing/jsRecVid@main/js/jsRecVid.js"></script>
  *
  *https://github.com/layerswing/jsRecVid
  * Copyright (c) 2021 Dan B. (http://eskolar.com)
