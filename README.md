@@ -1,6 +1,6 @@
 # jsRecVid
 jsRecVid
-a js file that may be usefull when someone makes screen recordings with multiple text messages
+this is a js file that may be usefull when someone makes screen recordings with multiple text messages
 
 insert into html file change **0.6** to the latest version
 
