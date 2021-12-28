@@ -6,7 +6,7 @@
  * Licensed same as jquery - under the terms of the MIT License
  * http://www.opensource.org/licenses/mit-license.php
  */
-var gl_int_jsRecVid_version = 2021122801;
+var gl_int_jsRecVid_version = 2021122805;
 var gl_b_jsRecVid_Mode = false;
 var gl_b_jsRecVid_editor_Mode = false;
 var gl_s_jsRecVid_id = "bkb_vidrec";
@@ -16,10 +16,10 @@ var gl_int_el_w = 300;
 var gl_int_el_h = 100;
 
 var gl_s_arr_txt = [
-    "egy",
-    "ketto",
-    "harom",
-    "negy"
+    "one",
+    "two",
+    "three",
+    "four"
 
 ];
 
