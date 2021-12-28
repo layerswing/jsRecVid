@@ -15,7 +15,7 @@
  * erc+left arrow       previous text line from editor
  */
 
-var gl_int_jsRecVid_version = 2021122805;
+var gl_int_jsRecVid_version = 2021122806;
 var gl_b_jsRecVid_Mode = false;
 var gl_b_jsRecVid_editor_Mode = false;
 var gl_s_jsRecVid_id = "bkb_vidrec";
